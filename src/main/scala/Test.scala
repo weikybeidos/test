@@ -5,14 +5,24 @@ object Test {
 
   def main(args: Array[String]): Unit = {
     println(stringfunct())
+
+    println(stringfunct1("Hello Markus"))
     println(concat())
     //ich kommentiere hier mal wild rum
+
   }
 
   def stringfunct() :String={
   val str ="Hello World. "
   return str
   }
+
+
+  def stringfunct1(neuerName:String) :String={
+    return neuerName+"!"
+  }
+
+
 
   def vamf(): Int={
 
@@ -27,4 +37,5 @@ object Test {
     val str2= stringfunct() + "I'm feelin fine!"
     return str2
   }
+
 }
