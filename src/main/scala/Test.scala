@@ -12,4 +12,9 @@ object Test {
   val str ="Hello World"
   return str
   }
+  def stringfunct1(neuerName:String) :String={
+    return neuerName
+  }
+
+
 }
