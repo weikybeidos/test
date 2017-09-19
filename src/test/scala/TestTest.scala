@@ -6,6 +6,7 @@ import org.scalatest.FlatSpec
 class TestTest extends FlatSpec {
 
  assert(Test.stringfunct().length>=5)
+ assert(Test.stringfunct1("Hallo Anja").length>=5)
 
  assert(1==1)
 
