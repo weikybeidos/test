@@ -4,8 +4,12 @@
 object Test {
 
   def main(args: Array[String]): Unit = {
-    println("Hello World")
+    println(stringfunct())
 
   }
 
+  def stringfunct() :String={
+  val str ="Hello World"
+  return str
+  }
 }
