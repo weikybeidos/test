@@ -14,7 +14,7 @@ object Test {
   }
 
   def stringfunct1(neuerName:String) :String={
-    return neuerName
+    return neuerName+"!"
   }
 
 
